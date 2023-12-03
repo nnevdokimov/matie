@@ -1,7 +1,5 @@
-import asyncio
-import base64
 import uuid
-from config import speech_oath
+from config import speech_oath, BASIC_AUTH
 from aiohttp import ClientSession
 
 SBER_API_TOKEN = speech_oath
@@ -61,7 +59,7 @@ async def gen_oath():
     url = 'https://ngw.devices.sberbank.ru:9443/api/v2/oauth'
 
     headers = {
-        'Authorization': 'Basic NTYyNDIwOWQtNTcxNC00YTk0LTkyZjItZDhmNTFhNGFiYzVkOjIyYjdhMjU4LTZmMzUtNGE2Ny04MjQ4LWRiY2YxN2YzNjU4NQ==',
+        'Authorization': BASIC_AUTH,
         'RqUID': str(uuid.uuid4()),
         'Content-Type': 'application/x-www-form-urlencoded'
     }

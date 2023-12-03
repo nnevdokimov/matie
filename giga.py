@@ -3,9 +3,10 @@ import json
 from langchain.schema import HumanMessage, SystemMessage, AIMessage
 from langchain.chat_models.gigachat import GigaChat
 from TaskManager import task_manager_stat
+from config import GIGA_API
 
 chat = GigaChat(
-    credentials='OWRiODI1OGQtYTc0NC00Y2U2LWJhZWItMGMxYjlkZWVjMmY3OjA1NTEwNTdkLWQxMjUtNDljMS04YWYwLTU1ZTIyZTliN2Y2Yw==',
+    credentials=GIGA_API,
     verify_ssl_certs=False, scope='GIGACHAT_API_PERS')
 
 system_message = 'Ты полезный AI помощник, который выполняет задачи чисто по указаниям'
@@ -26,7 +27,7 @@ user_message = """
             "details": {
                 "task_title": "{task_title}" при наличии,
                 "deadline": "{deadline}" если его нет в сообщении человека - то просто пропуск,
-                "new_status": "{new_status}" при наличии,
+                "new_status": "Не начато" или "В разработке" или "Готово" при наличии,
                 "all_tasks": {all_tasks_boolean} при наличии,
                 "meeting_name": "{meeting_name}" при наличии
             }
