@@ -1,0 +1,12 @@
+
+upython:S1192$"XDefine a constant instead of duplicating this literal 'Method not implemented!' 4 times.(ƒë¡ÿÿÿÿÿ
+mpython:S116"VRename this field "AsyncRecognize" to match the regular expression ^[_a-z][_a-z0-9]*$.(¹Øâ
+hpython:S116"QRename this field "Recognize" to match the regular expression ^[_a-z][_a-z0-9]*$.(äİ„Ö
+vpython:S4144'"YUpdate this function so that its implementation is not identical to Recognize on line 33.(Õ¿Ì±üÿÿÿÿ
+Ppython:S1172!"8Remove the unused function parameter "request_iterator".(ÿ·ƒ‚
+dpython:S100!"MRename method "Recognize" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÿ·ƒ‚
+Lpython:S1172'"/Remove the unused function parameter "request".(Õ¿Ì±üÿÿÿÿ
+npython:S100'"RRename method "AsyncRecognize" to match the regular expression ^[a-z_][a-z0-9_]*$.(Õ¿Ì±üÿÿÿÿ
+„python:S1542."gRename function "add_SmartSpeechServicer_to_server" to match the regular expression ^[a-z_][a-z0-9_]*$.(°¹Ğ¢ÿÿÿÿÿ
+dpython:S100E"MRename method "Recognize" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÜÈ×õ
+ipython:S100V"RRename method "AsyncRecognize" to match the regular expression ^[a-z_][a-z0-9_]*$.(ŠÅŠÜ

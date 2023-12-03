@@ -1,0 +1,12 @@
+
+upython:S1192#"XDefine a constant instead of duplicating this literal 'Method not implemented!' 4 times.(ƒë¡ÿÿÿÿÿ
+jpython:S116"NRename this field "Upload" to match the regular expression ^[_a-z][_a-z0-9]*$.(Şë£Æúÿÿÿÿ
+gpython:S116"PRename this field "Download" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ğ¼…à
+npython:S4144&"VUpdate this function so that its implementation is not identical to Upload on line 32.(‚ÅÎ
+Upython:S1172 "8Remove the unused function parameter "request_iterator".(¢„Ò¦ùÿÿÿÿ
+fpython:S100 "JRename method "Upload" to match the regular expression ^[a-z_][a-z0-9_]*$.(¢„Ò¦ùÿÿÿÿ
+Gpython:S1172&"/Remove the unused function parameter "request".(‚ÅÎ
+cpython:S100&"LRename method "Download" to match the regular expression ^[a-z_][a-z0-9_]*$.(‚ÅÎ
+„python:S1542-"gRename function "add_SmartSpeechServicer_to_server" to match the regular expression ^[a-z_][a-z0-9_]*$.(°¹Ğ¢ÿÿÿÿÿ
+apython:S100D"JRename method "Upload" to match the regular expression ^[a-z_][a-z0-9_]*$.(ôĞû½
+hpython:S100U"LRename method "Download" to match the regular expression ^[a-z_][a-z0-9_]*$.(ƒ³âìüÿÿÿÿ

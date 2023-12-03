@@ -1,0 +1,12 @@
+
+upython:S1192#"XDefine a constant instead of duplicating this literal 'Method not implemented!' 4 times.(ƒë¡ÿÿÿÿÿ
+kpython:S116"ORename this field "GetTask" to match the regular expression ^[_a-z][_a-z0-9]*$.(Æó¹œùÿÿÿÿ
+ipython:S116"RRename this field "CancelTask" to match the regular expression ^[_a-z][_a-z0-9]*$.(éé›”
+tpython:S4144&"WUpdate this function so that its implementation is not identical to GetTask on line 32.(õÂ¸˜úÿÿÿÿ
+Lpython:S1172 "/Remove the unused function parameter "request".( ÿñÜşÿÿÿÿ
+gpython:S100 "KRename method "GetTask" to match the regular expression ^[a-z_][a-z0-9_]*$.( ÿñÜşÿÿÿÿ
+Lpython:S1172&"/Remove the unused function parameter "request".(õÂ¸˜úÿÿÿÿ
+jpython:S100&"NRename method "CancelTask" to match the regular expression ^[a-z_][a-z0-9_]*$.(õÂ¸˜úÿÿÿÿ
+„python:S1542-"gRename function "add_SmartSpeechServicer_to_server" to match the regular expression ^[a-z_][a-z0-9_]*$.(°¹Ğ¢ÿÿÿÿÿ
+bpython:S100D"KRename method "GetTask" to match the regular expression ^[a-z_][a-z0-9_]*$.(Œõª„
+epython:S100U"NRename method "CancelTask" to match the regular expression ^[a-z_][a-z0-9_]*$.(Çõ½Ì
